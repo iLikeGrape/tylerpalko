@@ -2,7 +2,7 @@ html {
   background-color: #202124;
   color: #ffffff;
   font-family: Inter sans-serif;
-  }
+}
   .heading {
     text-align: center;
     position: fixed;
@@ -30,3 +30,40 @@ html {
     background-color: transparent;
     text-decoration: underline;
   }
+  * {
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: limegreen;
+    display: flex;
+    flex-direction: column;
+}
+header h2 {
+    font-size: 32px;
+    color: #fff
+}
+
+.scrollbox {
+    overflow: auto;
+}
+.scrollbox-inner p {
+    font-size: 16px;
+    color: #fff;
+}
+
+
