@@ -15,6 +15,13 @@ html {
     width: 100%;
     text-align: center;
   }
+  .games{
+    float:left;
+  }
+  .page{
+    float:right;
+    background-color: red;
+  }
   a:link {
     color: #8ab4f8;
     background-color: transparent;
